@@ -17,10 +17,10 @@
 # Author
 Neil D. B. Bruce
 
-Centre of Vision Research and
-Department of Computer Science and Engineering
-York University
-Current contact: Neil.Bruce@sophia.inria.fr
+Centre of Vision Research and  
+Department of Computer Science and Engineering  
+York University  
+Current contact: Neil.Bruce@sophia.inria.fr  
 Last update, April 2009
 
 # References
@@ -52,13 +52,10 @@ pp. 171–183, 2007.
 measures. In Proceedings of the 17th International
 Conference on Pattern Recognition, Cambridge, UK, 2004.
 
-# Usage
-
-There is a single required argument which is the image name, however there are additional arguments which may slightly alter the behavior since many of these require different sub-arguments they require editing the parameters in the code itself, that said, there are a few parameters that are directly accessible from the command line:
-
-## Basic example
+# Usage Basics
 
 ```Matlab
+% The only required argument is the image name
 out = AIM(imagename);
 
 % With optional arguments:
@@ -75,7 +72,7 @@ out = AIM(imagename);
 out2 = AIM('23.jpg',0.5,1,'21jade950.mat',1);
 ```
 
-Additional options are specified in the parameters that follow including the ability to modify parameters of the computation not available on the command line.
+Additional options are specified in `AIM.m` including the ability to modify parameters of the computation not available via the function call.
 
 # COPYRIGHT NOTICE
 
